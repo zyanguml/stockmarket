@@ -1,0 +1,5 @@
+edu\uml\business\ScrapStockDataInterface.class
+edu\uml\business\ScrapStockData.class
+edu\uml\business\YahooFinanceConnection.class
+edu\uml\business\HistoryReportForm.class
+edu\uml\business\SymbolSearch.class
