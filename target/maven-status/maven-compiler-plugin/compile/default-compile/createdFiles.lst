@@ -7,4 +7,6 @@ edu\uml\business\ScrapStockData.class
 edu\uml\UI\ScrapStockUI$1.class
 edu\uml\business\HistoryReportForm.class
 edu\uml\UI\ScrapStockUI.class
+edu\uml\persistence\PersistSymbol.class
+edu\uml\persistence\PersistSymbolXML.class
 edu\uml\business\SymbolSearch.class
