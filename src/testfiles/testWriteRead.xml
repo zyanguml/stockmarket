@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<portfolio>
+		<stock id="testsymbol">
+			<somefield>somedata</somefield>
+		</stock>
+		<stock id="testsymbol2">
+			<somefield>somedata2</somefield>
+		</stock>
+</portfolio>
