@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Users\zyyang1\Documents\NetBeansProjects\learningant\stockmarket"/>
+    <property name="user.dir" value="C:\Users\zyyang1\Documents\GitHub\stockmarket"/>
     <property name="java.runtime.version" value="1.7.0_45-b18"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.7.0_45\jre\lib\endorsed"/>
@@ -26,10 +26,10 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 8"/>
-    <property name="net.sourceforge.cobertura.datafile" value="C:\Users\zyyang1\Documents\NetBeansProjects\learningant\stockmarket\target\cobertura\cobertura.ser"/>
+    <property name="net.sourceforge.cobertura.datafile" value="C:\Users\zyyang1\Documents\GitHub\stockmarket\target\cobertura\cobertura.ser"/>
     <property name="classworlds.conf" value="C:\apache-maven-3.2.1-bin\apache-maven-3.2.1\bin\..\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.7.0_45\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\AMD APP\bin\x86_64;C:\Program Files (x86)\AMD APP\bin\x86;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\MySQL\MySQL Utilities\;C:\Program Files\apache-ant-1.9.3\bin;C:\Program Files\Java\jdk1.7.0_45\bin;C:\Program Files\Internet Explorer;C:\Program Files (x86)\AMD APP\bin\x86_64;C:\Program Files (x86)\AMD APP\bin\x86;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\MySQL\MySQL Utilities\;C:\Program Files\apache-ant-1.9.3\bin;C:\Program Files\Java\jdk1.7.0_45\bin;C:\Users\zyyang1\AppData\Local\Programs\Git\cmd;C:\apache-maven-3.2.1-bin\apache-maven-3.2.1\bin;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.7.0_45\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\zyyang1\AppData\Local\GitHub\PortableGit_054f2e797ebafd44a30203088cd3d58663c627ef\cmd;C:\Users\zyyang1\AppData\Local\GitHub\PortableGit_054f2e797ebafd44a30203088cd3d58663c627ef\bin;C:\Users\zyyang1\AppData\Local\Apps\2.0\W00K23TE.1ML\VGVE8MK4.Z92\gith..tion_317444273a93ac29_0001.0002_6db6521c0dc514d4;C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319;C:\Program Files (x86)\AMD APP\bin\x86_64;C:\Program Files (x86)\AMD APP\bin\x86;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\MySQL\MySQL Utilities\;C:\Program Files\apache-ant-1.9.3\bin;C:\Program Files\Java\jdk1.7.0_45\bin;C:\Program Files\Internet Explorer;C:\Program Files (x86)\AMD APP\bin\x86_64;C:\Program Files (x86)\AMD APP\bin\x86;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\MySQL\MySQL Utilities\;C:\Program Files\apache-ant-1.9.3\bin;C:\Program Files\Java\jdk1.7.0_45\bin;C:\Users\zyyang1\AppData\Local\Programs\Git\cmd;C:\apache-maven-3.2.1-bin\apache-maven-3.2.1\bin;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="51.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -59,24 +59,24 @@
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="project.build.outputDirectory" value="C:\Users\zyyang1\Documents\NetBeansProjects\learningant\stockmarket\target\generated-classes\cobertura"/>
+    <property name="project.build.outputDirectory" value="C:\Users\zyyang1\Documents\GitHub\stockmarket\target\generated-classes\cobertura"/>
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase time="0" classname="edu.uml.persistence.PersistSymbolXMLTest" name="testInsertData"/>
-  <testcase time="0" classname="edu.uml.persistence.PersistSymbolXMLTest" name="testSaveSymbol"/>
-  <testcase time="0" classname="edu.uml.persistence.PersistSymbolXMLTest" name="testCreateBadSymbol"/>
-  <testcase time="0.015" classname="edu.uml.persistence.PersistSymbolXMLTest" name="testWriteReadXML2"/>
-  <testcase time="0" classname="edu.uml.persistence.PersistSymbolXMLTest" name="testWriteReadXML"/>
-  <testcase time="0" classname="edu.uml.persistence.PersistSymbolXMLTest" name="testWriteEmptyFile"/>
-  <testcase time="0" classname="edu.uml.persistence.PersistSymbolXMLTest" name="testWriteBadFile"/>
-  <testcase time="0.016" classname="edu.uml.persistence.PersistSymbolXMLTest" name="testWriteReadEmptyFileTest"/>
-  <testcase time="0" classname="edu.uml.persistence.PersistSymbolXMLTest" name="testCreateSymbol"/>
-  <testcase time="0" classname="edu.uml.persistence.PersistSymbolXMLTest" name="testReadBadFile"/>
-  <testcase time="0" classname="edu.uml.persistence.PersistSymbolXMLTest" name="testCreateBadSymbol2"/>
-  <testcase time="0" classname="edu.uml.persistence.PersistSymbolXMLTest" name="testGetSymbols"/>
-  <testcase time="0" classname="edu.uml.persistence.PersistSymbolXMLTest" name="testReadSymbol"/>
   <testcase time="0" classname="edu.uml.persistence.PersistSymbolXMLTest" name="testSaveBadSymbol"/>
+  <testcase time="0" classname="edu.uml.persistence.PersistSymbolXMLTest" name="testWriteReadEmptyFileTest"/>
+  <testcase time="0" classname="edu.uml.persistence.PersistSymbolXMLTest" name="testReadSymbol"/>
+  <testcase time="0" classname="edu.uml.persistence.PersistSymbolXMLTest" name="testWriteReadXML"/>
+  <testcase time="0" classname="edu.uml.persistence.PersistSymbolXMLTest" name="testSaveSymbol"/>
+  <testcase time="0" classname="edu.uml.persistence.PersistSymbolXMLTest" name="testInsertData"/>
   <testcase time="0" classname="edu.uml.persistence.PersistSymbolXMLTest" name="testDeleteBadSymbol"/>
-  <testcase time="0" classname="edu.uml.persistence.PersistSymbolXMLTest" name="testWriteXML"/>
+  <testcase time="0.016" classname="edu.uml.persistence.PersistSymbolXMLTest" name="testWriteReadXML2"/>
+  <testcase time="0" classname="edu.uml.persistence.PersistSymbolXMLTest" name="testCreateBadSymbol2"/>
+  <testcase time="0" classname="edu.uml.persistence.PersistSymbolXMLTest" name="testWriteEmptyFile"/>
+  <testcase time="0" classname="edu.uml.persistence.PersistSymbolXMLTest" name="testReadBadFile"/>
+  <testcase time="0" classname="edu.uml.persistence.PersistSymbolXMLTest" name="testCreateBadSymbol"/>
+  <testcase time="0" classname="edu.uml.persistence.PersistSymbolXMLTest" name="testGetSymbols"/>
+  <testcase time="0" classname="edu.uml.persistence.PersistSymbolXMLTest" name="testCreateSymbol"/>
+  <testcase time="0" classname="edu.uml.persistence.PersistSymbolXMLTest" name="testWriteBadFile"/>
+  <testcase time="0.015" classname="edu.uml.persistence.PersistSymbolXMLTest" name="testWriteXML"/>
 </testsuite>
