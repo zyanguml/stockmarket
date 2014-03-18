@@ -21,6 +21,7 @@ import java.util.Set;
  */
 public class ScrapStockUI extends JFrame {
 
+    public JFrame thisFrame; // parent frame
     private JLabel labelStockSymbol = new JLabel();  // this is the label for the stock symbol text box
     private JTextField textFieldStockSymbol = new JTextField("",5); // this is the text box for entering the stock symbol
     private DefaultComboBoxModel cbModel = new DefaultComboBoxModel(); // this contains all the items in teh combo box
@@ -158,10 +159,17 @@ public class ScrapStockUI extends JFrame {
                     // see https://code.google.com/p/yahoo-finance-managed/wiki/enumQuoteProperty for meaning
                     // of the string to obtain info on stocks
                     String info = stockInfo.getStockInfoOn(stockSymbol,"s0p0c1p2");
-                    for (int j = 0; j < 4; j++) {
-                        model.setValueAt(info.split(",")[j].replaceAll("^\"|\"$", ""), currentRow, j);
+                    String currentPrice = info.split(",")[1].replaceAll("^\"|\"$", "");
+                    // determine if the symbol is a valid one
+                    if (currentPrice.equals("N/A")) {
+                        JOptionPane.showMessageDialog(thisFrame,"Symbol is not recognized.");
                     }
-                    currentRow++;
+                    else {
+                         for (int j = 0; j < 4; j++) {
+                            model.setValueAt(info.split(",")[j].replaceAll("^\"|\"$", ""), currentRow, j);
+                         }
+                        currentRow++;
+                    }
                 }
             });
 
@@ -189,5 +197,8 @@ public class ScrapStockUI extends JFrame {
     }
     public static void main(String[] args) {
         ScrapStockUI frame = new ScrapStockUI();
+        frame.thisFrame = frame;
     }
 }
+
+
